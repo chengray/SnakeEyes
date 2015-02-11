@@ -5,7 +5,10 @@ public class levelLoader : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-	
+		p1Control.dead = false;
+		p2Control.dead = false;
+		p2Control.start = false;
+		p1Control.start = false;
 	}
 	
 	// Update is called once per frame

@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{32D0602F-1E6F-084D-B2AD-E9FAF79A17F0}</ProjectGuid>
+	<ProjectGuid>{245093B1-D40F-D628-3286-647A65CD4178}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -46,6 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Countdown.cs" />
      <Compile Include="Assets\Scripts\HighScore.cs" />
      <Compile Include="Assets\Scripts\Rotator.cs" />
      <Compile Include="Assets\Scripts\Score.cs" />
